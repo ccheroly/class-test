@@ -10,7 +10,7 @@ node {
     stage('Show me the files') {
 
         sh "ls -l"
-
+sh "php -S localhost:5000"
     }
 
 
